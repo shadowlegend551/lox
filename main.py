@@ -2,7 +2,8 @@ from tokenizer import tokenize
 
 
 def main():
-    pass
+    while True:
+        print(tokenize(input('> ')))
 
 
 if __name__ == '__main__':
